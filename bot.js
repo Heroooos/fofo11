@@ -14,8 +14,8 @@ client.on('message', message => {
   }
 });
 client.on('ready', async() => {
-var server = "514240284897312769"; // ايدي السررفر
-var channel = "514405323306434561";//ايدي الروم
+var server = "515646992274423818"; // ايدي السررفر
+var channel = "515653311735529493";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , **')
     client.guilds.get(server).channels.get(channel).send('**𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , 𓆩A7MDKW𓆪 , **')
@@ -32,7 +32,7 @@ var channel = "514405323306434561";//ايدي الروم
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
     if(message.content === "t") {
-        message.channel.send(`#credits <@351472610732670976> ${args}`)
+        message.channel.send(`#credits <@357858592214351872> ${args}`)
     }
 });
 
