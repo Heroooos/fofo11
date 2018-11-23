@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 //--------------------------------------------
 var client = new Discord.Client();
-const prefix = '7'
+const prefix = '11'
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -31,7 +31,7 @@ var channel = "514405323306434561";//ايدي الروم
 
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
-    if(message.content.startsWith(prefix + "t")) {
+    if(message.content === "t") {
         message.channel.send(`#credits <@351472610732670976> ${args}`)
     }
 });
@@ -39,14 +39,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
-    if(message.content.startsWith(prefix + "c")) {
+    if(message.content === "c") {
         message.channel.send(`#credits`)
     }
 });
 
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
-    if(message.content.startsWith(prefix + "d")) {
+    if(message.content === "d") {
         message.channel.send(`#daily`)
     }
 });
